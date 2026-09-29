@@ -69,7 +69,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 33 entries
 - [Calibration & Research](categories/calibration-research.md) — 43 entries
-- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 94 entries
+- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 95 entries
 - [Game & Simulation](categories/game-simulation.md) — 24 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
 - [Finance & Trading](categories/finance-trading.md) — 8 entries
@@ -539,6 +539,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 - [Tiltmeter](https://github.com/abe75ch/tiltmeter) ![type: proxy](https://img.shields.io/badge/type-proxy-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/abe75ch/tiltmeter?style=flat-square&label=%E2%98%85) - Monitoring: drop-in `/v1/systemone` proxy and Pydantic AI client that records every Jev answer's probabilities and alerts, without labels, when `jev-latest` switches versions, a question's answers drift (chi-square-tested PSI), answers crowd a decision threshold, or estimated accuracy falls.
 - [Building with TypeSafe Jev](https://github.com/aaddrick/building-with-typesafe-jev) ![agent: Multi](https://img.shields.io/badge/agent-Multi-1F6FEB?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/aaddrick/building-with-typesafe-jev?style=flat-square&label=%E2%98%85) - Agent skill: a plugin published to both the Claude Code and Codex marketplaces that teaches a coding agent to reach for typed Jev decisions, with a setup walkthrough for each host.
 - [Jev Showcase](https://github.com/cobusgreyling/Jev) ![stars](https://img.shields.io/github/stars/cobusgreyling/Jev?style=flat-square&label=%E2%98%85) - Pattern gallery: a runnable app with four agent skills that put `Choice`, `Score` and `Noul` next to parallel fan-out, a router and a guardrail in one codebase.
+- [DecisionKit](https://github.com/iamjonatha/decisionkit-dotnet) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/iamjonatha/decisionkit-dotnet?style=flat-square&label=%E2%98%85) - .NET ecosystem: provider-independent .NET decision engine whose domain package holds no Jev URL, header or DTO, mapping `Choice`, `Score` and `Noul` questions onto `POST /v1/systemone` from a separate provider package, with a runnable ASP.NET ticket-triage sample that picks the owning team and escalates to a human at a normalized `Score` of 0.8, and 1,096 tests across `net8.0` and `net10.0` that run with no HTTP.
 
 ### Game & Simulation
 
