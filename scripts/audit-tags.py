@@ -40,6 +40,7 @@ SUPPORT = {
     "cursor":      r"\bcursor\b",
     "cline":       r"\bcline\b",
     "dsh":         r"deepseek[ -]?harness|\bdsh\b",
+    "openclaw":    r"openclaw",
     "multi":       None,
 }
 
