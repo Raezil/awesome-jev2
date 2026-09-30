@@ -65,7 +65,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 45 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 38 entries
-- [Agent Decisions](categories/agent-decisions.md) — 56 entries
+- [Agent Decisions](categories/agent-decisions.md) — 57 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 33 entries
 - [Calibration & Research](categories/calibration-research.md) — 43 entries
@@ -338,6 +338,7 @@ Source file: [`categories/agent-decisions.md`](categories/agent-decisions.md)
 - [opencode-jev-compaction](https://github.com/radqnico/opencode-jev-compaction) ![stars](https://img.shields.io/github/stars/radqnico/opencode-jev-compaction?style=flat-square&label=%E2%98%85) - Replaces OpenCode compaction summaries with Jev keep/drop judgments that prune stale tool calls while preserving everything kept verbatim.
 - [jev-opus](https://github.com/WXK-AI/jev-opus) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![type: proxy](https://img.shields.io/badge/type-proxy-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/WXK-AI/jev-opus?style=flat-square&label=%E2%98%85) - Coding agents: runs Claude Code on Opus 5.5 and asks Jev a `Choice`, a `Score` and a `Noul` on each prompt and after every tool batch to pick the next API call's reasoning effort (low/medium/high), sent as a per-message statement so the prompt cache never breaks.
 - [jev-auto-approve](https://github.com/BasmaAbouzied0/jev-auto-approve) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![stars](https://img.shields.io/github/stars/BasmaAbouzied0/jev-auto-approve?style=flat-square&label=%E2%98%85) - Coding agents: Claude Code PreToolUse hook that asks Jev a `Noul` on whether a shell command is strictly read-only, auto-approving at 0.95 and otherwise falling back to the normal permission prompt without ever denying, while a local hard-no list and injection filter keep risky commands from reaching Jev; 0 of 8 state-changing commands were approved in its published calibration.
+- [WebJev](https://github.com/lexmount/WebJev) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/lexmount/WebJev?style=flat-square&label=%E2%98%85) - Browser agents: open-weight Apache-2.0 decision model (a Qwen3.5-35B-A3B fine-tune) that answers jev-ultrafast's per-step `Choice` questions for the next operation and its target element behind the same `/v1/systemone` API, completing 38.5% of 125 hand-picked real-website tasks graded by deterministic verifiers versus 16.7% for Jev 1.13 in the same agent.
 
 ### Data Labeling & Curation
 
