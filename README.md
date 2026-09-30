@@ -75,7 +75,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Finance & Trading](categories/finance-trading.md) — 8 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 2 entries
 - [Content Moderation](categories/content-moderation.md) — 8 entries
-- [Related Practices / Discussions](categories/related-practices-discussions.md) — 93 entries
+- [Related Practices / Discussions](categories/related-practices-discussions.md) — 94 entries
 
 ### Open categories still being seeded
 
@@ -638,6 +638,7 @@ Source file: [`categories/related-practices-discussions.md`](categories/related-
 - [Jev for instant compaction](https://x.com/tamarajtran/status/2100694549362553153) - X: argues agent context compaction should be a Jev decision rather than a summarization prompt.
 - [Reviewing unnecessary tool calls with Jev](https://x.com/altryne/status/2100739055923425589) - X: a Claude plugin asks Jev to review redundant tool calls, running in about a second.
 - [19 open-source Jev projects](https://x.com/GoSailGlobal/status/2100859307671855113) - X (Chinese): tallies 19 open-source Jev projects totalling more than 6,800 stars.
+- [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Research paper: surveys 2,170 public Jev GitHub projects to map early ecosystem growth, application domains, and decision-use patterns.
 - [Jev is the fish at the poker table](https://backnotprop.com/blog/jev-poker/) - Blog: plays poker with Jev and uses the table to probe where a fast decision model helps and where it does not.
 - [Jev is about to change the AI economy](https://thefinancialengineer.substack.com/p/typesafes-jev-is-about-to-change) - Substack: argues that cheap calibrated decisions move where inference spend goes.
 - [Awesome Jev by 0xLogicrw](https://x.com/0xLogicrw/status/2100478725393686556) - X (Chinese): a hand-checked list of Jev projects that has since grown into a navigation site indexing 287 of them, published one day after launch.
