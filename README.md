@@ -63,7 +63,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 - [Classification & Routing](categories/classification-routing.md) — 55 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
-- [Verification & Guardrails](categories/verification-guardrails.md) — 46 entries
+- [Verification & Guardrails](categories/verification-guardrails.md) — 47 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 38 entries
 - [Agent Decisions](categories/agent-decisions.md) — 58 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
@@ -239,6 +239,7 @@ Source file: [`categories/verification-guardrails.md`](categories/verification-g
 - [semcheck](https://github.com/arturobermejo/semcheck) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/arturobermejo/semcheck?style=flat-square&label=%E2%98%85) - Code review: Go linter whose rules are plain-English questions such as "does this log call write personal data?", asking Jev one `Noul` for each piece of code a rule applies to and reporting it above the rule's threshold; its two shipped rules were right on 12 of 12 sampled findings in three open-source projects.
 - [Cribrix](https://github.com/david96182/cribrix) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/david96182/cribrix?style=flat-square&label=%E2%98%85) - Retrieval / RAG: filters retrieved chunks with a Jev `Score` plus `Noul` checks for answer evidence and prompt injection, then withholds any draft whose claims fail a batched per-claim `Noul` or cite numbers absent from the sources; on its replayed 62-question golden set it answered 0 of 22 unanswerable questions, against 4 of 22 for naive top-5 RAG.
 - [Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner) ![stars](https://img.shields.io/github/stars/cisco-ai-defense/skill-scanner?style=flat-square&label=%E2%98%85) - Agent security: Cisco's scanner hunts prompt injection and exfiltration in agent skills, and ships a System One analyzer as a deliberately advisory tier that cannot emit a finding or change a severity.
+- [openclaw-jev-leakguard](https://github.com/yousan/openclaw-jev-leakguard) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/yousan/openclaw-jev-leakguard?style=flat-square&label=%E2%98%85) - Agent security: OpenClaw plugin that checks every outgoing agent message against where it is going, running local key-format and term rules and then five Jev `Noul` questions in one call (credential, where credentials are kept, client name, internal infrastructure, confidential business information) through OpenClaw's `decisionModel`, hosted Jev or a local Kev, and blocking, asking or holding it back by the channel's public, shared or private tier; with Jev it missed 0 of 56 synthetic leaks, 30 of which no regex or term list could see, with 4 false alarms on 57 ordinary messages at 223 ms p50.
 
 ### Scoring & Ranking
 
