@@ -63,19 +63,19 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 - [Classification & Routing](categories/classification-routing.md) — 55 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
-- [Verification & Guardrails](categories/verification-guardrails.md) — 45 entries
+- [Verification & Guardrails](categories/verification-guardrails.md) — 46 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 38 entries
-- [Agent Decisions](categories/agent-decisions.md) — 57 entries
+- [Agent Decisions](categories/agent-decisions.md) — 58 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 34 entries
-- [Calibration & Research](categories/calibration-research.md) — 44 entries
+- [Calibration & Research](categories/calibration-research.md) — 46 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 96 entries
 - [Game & Simulation](categories/game-simulation.md) — 24 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
 - [Finance & Trading](categories/finance-trading.md) — 8 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 2 entries
 - [Content Moderation](categories/content-moderation.md) — 8 entries
-- [Related Practices / Discussions](categories/related-practices-discussions.md) — 95 entries
+- [Related Practices / Discussions](categories/related-practices-discussions.md) — 96 entries
 
 ### Open categories still being seeded
 
@@ -238,6 +238,7 @@ Source file: [`categories/verification-guardrails.md`](categories/verification-g
 - [Perch](https://github.com/lakeday-org/perch) ![agent: Multi](https://img.shields.io/badge/agent-Multi-1F6FEB?style=flat-square) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/lakeday-org/perch?style=flat-square&label=%E2%98%85) - Code linting: semantic code linter that asks Jev about each method with its callers and callees in view, a `Noul` for whether it has a bug, a `Choice` for which kind and which line, and a `Score` for severity, plus language-filtered CWE `Noul` checks and custom rules written as sentences at repository, file or method level, failing CI on any answer over its floor.
 - [semcheck](https://github.com/arturobermejo/semcheck) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/arturobermejo/semcheck?style=flat-square&label=%E2%98%85) - Code review: Go linter whose rules are plain-English questions such as "does this log call write personal data?", asking Jev one `Noul` for each piece of code a rule applies to and reporting it above the rule's threshold; its two shipped rules were right on 12 of 12 sampled findings in three open-source projects.
 - [Cribrix](https://github.com/david96182/cribrix) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/david96182/cribrix?style=flat-square&label=%E2%98%85) - Retrieval / RAG: filters retrieved chunks with a Jev `Score` plus `Noul` checks for answer evidence and prompt injection, then withholds any draft whose claims fail a batched per-claim `Noul` or cite numbers absent from the sources; on its replayed 62-question golden set it answered 0 of 22 unanswerable questions, against 4 of 22 for naive top-5 RAG.
+- [Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner) ![stars](https://img.shields.io/github/stars/cisco-ai-defense/skill-scanner?style=flat-square&label=%E2%98%85) - Agent security: Cisco's scanner hunts prompt injection and exfiltration in agent skills, and ships a System One analyzer as a deliberately advisory tier that cannot emit a finding or change a severity.
 
 ### Scoring & Ranking
 
@@ -343,6 +344,7 @@ Source file: [`categories/agent-decisions.md`](categories/agent-decisions.md)
 - [jev-opus](https://github.com/WXK-AI/jev-opus) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![type: proxy](https://img.shields.io/badge/type-proxy-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/WXK-AI/jev-opus?style=flat-square&label=%E2%98%85) - Coding agents: runs Claude Code on Opus 5.5 and asks Jev a `Choice`, a `Score` and a `Noul` on each prompt and after every tool batch to pick the next API call's reasoning effort (low/medium/high), sent as a per-message statement so the prompt cache never breaks.
 - [jev-auto-approve](https://github.com/BasmaAbouzied0/jev-auto-approve) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![stars](https://img.shields.io/github/stars/BasmaAbouzied0/jev-auto-approve?style=flat-square&label=%E2%98%85) - Coding agents: Claude Code PreToolUse hook that asks Jev a `Noul` on whether a shell command is strictly read-only, auto-approving at 0.95 and otherwise falling back to the normal permission prompt without ever denying, while a local hard-no list and injection filter keep risky commands from reaching Jev; 0 of 8 state-changing commands were approved in its published calibration.
 - [WebJev](https://github.com/lexmount/WebJev) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/lexmount/WebJev?style=flat-square&label=%E2%98%85) - Browser agents: open-weight Apache-2.0 decision model (a Qwen3.5-35B-A3B fine-tune) that answers jev-ultrafast's per-step `Choice` questions for the next operation and its target element behind the same `/v1/systemone` API, completing 38.5% of 125 hand-picked real-website tasks graded by deterministic verifiers versus 16.7% for Jev 1.13 in the same agent.
+- [laya-browser-agent](https://github.com/ChenneyZhuang/laya-browser-agent) ![stars](https://img.shields.io/github/stars/ChenneyZhuang/laya-browser-agent?style=flat-square&label=%E2%98%85) - Browser agent: derives each step from a Jev-shaped model — Laya through MLX or PyTorch, any duck-typed backend, or an arbitrary System One HTTP endpoint.
 
 ### Data Labeling & Curation
 
@@ -446,6 +448,8 @@ Source file: [`categories/calibration-research.md`](categories/calibration-resea
 - [Jeff](https://github.com/firelex/jeff) ![stars](https://img.shields.io/github/stars/firelex/jeff?style=flat-square&label=%E2%98%85) - Open alternative: MIT-licensed Qwen3.5 and Gemma 4 fine-tunes answering `choice`, `noul` and `score` on the same `/v1/systemone` format at about 22 ms per decision, published with a panel that measures Jev itself at 0.828 accuracy and 0.053 ECE while stating it claims no statistical significance.
 - [AutoJev](https://github.com/denis-pplx/autojev) ![stars](https://img.shields.io/github/stars/denis-pplx/autojev?style=flat-square&label=%E2%98%85) - Open recipe: a 27B multimodal decision model trained with full-weight SFT on 73,000 examples over one H200, serving `choice`, `noul` and `score` on `/v1/systemone` with per-checkpoint provenance and calibration plots released.
 - [Lev](https://huggingface.co/interfaze-ai/lev) - Open alternative: a 4B LoRA on a Qwen backbone published as a System One decision model and tagged for calibrated decisions, classification, routing and moderation.
+- [openjev](https://github.com/daseinlabs/open-jev) ![stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat-square&label=%E2%98%85) - Open implementation: ranks a Doom action menu with one `/score` call per step and supports per-task fine-tuning, released under MIT with the terminal run recorded.
+- [Jev-Omni](https://huggingface.co/akhilaaa3/Jev-Omni) - Multimodal System One: a Gemma-4-12B fine-tune that answers typed questions over text, images, audio and video, at 1,402 downloads in its first ten days.
 
 ### Infra / SDKs / Integrations
 
@@ -723,6 +727,7 @@ Source file: [`categories/related-practices-discussions.md`](categories/related-
 - [Playwright CLI + Jev vs Playwright MCP](https://x.com/filip_hric/status/2103450014143947164) - X: reports swapping the Playwright MCP for the Playwright CLI with Jev choosing each step, at 98% lower cost and twice the speed.
 - [Jev in front of the HeyGen MCP](https://x.com/HeyGen/status/2104633906217840701) - X: a lead-generation pipeline where Jev decides which leads deserve a video in milliseconds before HeyGen renders it.
 - [Halv cut AI agent cost by 57.1% using Jev](https://halv.ai/blog/halv-swe-rebench-astra-42-pairs/) - Blog + HN: reports a measured cost reduction from putting Jev in the agent loop, on the SWE-rebench Astra pair set.
+- [Jev organized 2.3K research papers for 14 cents](https://x.com/omarsar0/status/2102066232383979749) - X: a production use case reporting that sorting roughly 2,300 AI research papers took about 83 seconds and cost $0.14 in total.
 
 ## Submission format
 

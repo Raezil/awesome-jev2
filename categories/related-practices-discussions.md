@@ -105,3 +105,4 @@ Use this category for public discussion evidence — X threads, Reddit posts, Ha
 - [Playwright CLI + Jev vs Playwright MCP](https://x.com/filip_hric/status/2103450014143947164) - X: reports swapping the Playwright MCP for the Playwright CLI with Jev choosing each step, at 98% lower cost and twice the speed.
 - [Jev in front of the HeyGen MCP](https://x.com/HeyGen/status/2104633906217840701) - X: a lead-generation pipeline where Jev decides which leads deserve a video in milliseconds before HeyGen renders it.
 - [Halv cut AI agent cost by 57.1% using Jev](https://halv.ai/blog/halv-swe-rebench-astra-42-pairs/) - Blog + HN: reports a measured cost reduction from putting Jev in the agent loop, on the SWE-rebench Astra pair set.
+- [Jev organized 2.3K research papers for 14 cents](https://x.com/omarsar0/status/2102066232383979749) - X: a production use case reporting that sorting roughly 2,300 AI research papers took about 83 seconds and cost $0.14 in total.
