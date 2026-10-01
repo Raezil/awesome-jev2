@@ -10,6 +10,7 @@ Use this category for programs where Jev sorts incoming state into categories or
 
 ## Entries
 
+- [JEV Book Tags](https://github.com/iamjonatha/jev-book-tags) `{type: plugin}` - Library cataloguing: a calibre plugin asks Jev `Noul` questions about book genres and subjects, applies configurable per-tag probability thresholds, and preserves existing tags while leaving uncertain results for review.
 - [Diffusion Jev](https://github.com/Hangzhi/diffusion-jev-sglang) - Visual classification: independent Jev-style DiffusionGemma/SGLang server that selects doodle and flower labels from image pixels with typed Choice questions and displays candidate scores in a drawing playground, with public evaluation artifacts and uncalibrated probabilities.
 - [Notra](https://github.com/usenotra/notra) - Marketing analytics: production GEO platform whose `NOTRA_JEV_CLASSIFIERS` flag routes brand-visibility classifiers off an LLM and onto Jev `Boolean` decisions at a 0.5 threshold, targeting 300 ms p50.
 - [jev-router](https://github.com/gargpratyush/jev-router) `{agent: multi}` - Developer tooling: routes Claude Code tasks to the cheapest capable model by asking Jev to choose among candidates.

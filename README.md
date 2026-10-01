@@ -61,7 +61,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 55 entries
+- [Classification & Routing](categories/classification-routing.md) — 56 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 45 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 38 entries
@@ -118,6 +118,7 @@ Optional tags on an entry name the coding agent it targets and the kind of integ
 
 Source file: [`categories/classification-routing.md`](categories/classification-routing.md)
 
+- [JEV Book Tags](https://github.com/iamjonatha/jev-book-tags) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/iamjonatha/jev-book-tags?style=flat-square&label=%E2%98%85) - Library cataloguing: a calibre plugin asks Jev `Noul` questions about book genres and subjects, applies configurable per-tag probability thresholds, and preserves existing tags while leaving uncertain results for review.
 - [Diffusion Jev](https://github.com/Hangzhi/diffusion-jev-sglang) ![stars](https://img.shields.io/github/stars/Hangzhi/diffusion-jev-sglang?style=flat-square&label=%E2%98%85) - Visual classification: independent Jev-style DiffusionGemma/SGLang server that selects doodle and flower labels from image pixels with typed Choice questions and displays candidate scores in a drawing playground, with public evaluation artifacts and uncalibrated probabilities.
 - [Notra](https://github.com/usenotra/notra) ![stars](https://img.shields.io/github/stars/usenotra/notra?style=flat-square&label=%E2%98%85) - Marketing analytics: production GEO platform whose `NOTRA_JEV_CLASSIFIERS` flag routes brand-visibility classifiers off an LLM and onto Jev `Boolean` decisions at a 0.5 threshold, targeting 300 ms p50.
 - [jev-router](https://github.com/gargpratyush/jev-router) ![agent: Multi](https://img.shields.io/badge/agent-Multi-1F6FEB?style=flat-square) ![stars](https://img.shields.io/github/stars/gargpratyush/jev-router?style=flat-square&label=%E2%98%85) - Developer tooling: routes Claude Code tasks to the cheapest capable model by asking Jev to choose among candidates.
