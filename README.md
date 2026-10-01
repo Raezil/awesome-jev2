@@ -68,7 +68,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Agent Decisions](categories/agent-decisions.md) — 60 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 34 entries
-- [Calibration & Research](categories/calibration-research.md) — 46 entries
+- [Calibration & Research](categories/calibration-research.md) — 47 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 96 entries
 - [Game & Simulation](categories/game-simulation.md) — 24 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
@@ -454,6 +454,7 @@ Source file: [`categories/calibration-research.md`](categories/calibration-resea
 - [Lev](https://huggingface.co/interfaze-ai/lev) - Open alternative: a 4B LoRA on a Qwen backbone published as a System One decision model and tagged for calibrated decisions, classification, routing and moderation.
 - [openjev](https://github.com/daseinlabs/open-jev) ![stars](https://img.shields.io/github/stars/daseinlabs/open-jev?style=flat-square&label=%E2%98%85) - Open implementation: ranks a Doom action menu with one `/score` call per step and supports per-task fine-tuning, released under MIT with the terminal run recorded.
 - [Jev-Omni](https://huggingface.co/akhilaaa3/Jev-Omni) - Multimodal System One: a Gemma-4-12B fine-tune that answers typed questions over text, images, audio and video, at 1,402 downloads in its first ten days.
+- [Bekko System One](https://github.com/hotchpotch/bekko-system-one) ![stars](https://img.shields.io/github/stars/hotchpotch/bekko-system-one?style=flat-square&label=%E2%98%85) - Open decision models: independent 17M–400M English models for Choice, Noul, and Score, with public weights, training code, and an [ONNX browser demo](https://huggingface.co/spaces/hotchpotch/bekko-system-one-in-browser); v0 remains substantially behind Jev on the project's generalization tests.
 
 ### Infra / SDKs / Integrations
 
