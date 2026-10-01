@@ -67,7 +67,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Scoring & Ranking](categories/scoring-ranking.md) — 38 entries
 - [Agent Decisions](categories/agent-decisions.md) — 60 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
-- [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 34 entries
+- [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 35 entries
 - [Calibration & Research](categories/calibration-research.md) — 47 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 96 entries
 - [Game & Simulation](categories/game-simulation.md) — 24 entries
@@ -403,6 +403,7 @@ Source file: [`categories/evaluation-benchmarking.md`](categories/evaluation-ben
 - [jev-medhallu-benchmark](https://github.com/stperic/jev-medhallu-benchmark) ![stars](https://img.shields.io/github/stars/stperic/jev-medhallu-benchmark?style=flat-square&label=%E2%98%85) - Medical AI: pre-registered test of Jev as a hallucination check on Stanford MedHELM's MedHallu (1,000 test items), asking one `Noul` on whether an answer misrepresents its PubMed abstract; Jev scored 92.9% against 92.4–95.1% for four fast LLMs at a 204 ms median and USD 0.03 per 1,000 checks, and letting Jev settle the 37% of items where it was at least 90% sure kept each LLM's accuracy with 37% fewer LLM calls.
 - [zh-decision-bench](https://github.com/CodyQin/zh-decision-bench) ![stars](https://img.shields.io/github/stars/CodyQin/zh-decision-bench?style=flat-square&label=%E2%98%85) - Benchmarking: first Chinese-language calibration benchmark for Jev-class decision models (378 items / 5 models incl. NeoHorse-Jev-4B; accuracy, ECE, option-order and zh-CN/zh-TW robustness; CC BY 4.0 dataset on Hugging Face).
 - [jev vs. open alternatives](https://github.com/run-llama/jev_vs_oss) ![stars](https://img.shields.io/github/stars/run-llama/jev_vs_oss?style=flat-square&label=%E2%98%85) - Document pipelines: compares Jev against open models and specialised tools on five chores — language detection, orientation, RVL-CDIP classification, bundle splitting and parse-tier triage — asked as `Choice(2)` up to `Choice(16)`.
+- [S1MB](https://github.com/hotchpotch/S1MB) ![stars](https://img.shields.io/github/stars/hotchpotch/S1MB?style=flat-square&label=%E2%98%85) - Decision-model evaluation: compares Jev and open decision models across 137 English Choice, Noul, and Score benchmarks, including six synthetic generalization probes, with public evaluation data, recorded results, and an interactive [leaderboard](https://huggingface.co/spaces/hotchpotch/S1MB-leaderboard).
 
 ### Calibration & Research
 
