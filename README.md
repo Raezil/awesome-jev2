@@ -61,7 +61,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 55 entries
+- [Classification & Routing](categories/classification-routing.md) — 56 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 45 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 38 entries
@@ -173,6 +173,7 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 - [jev-seo](https://github.com/AgriciDaniel/jev-seo) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/AgriciDaniel/jev-seo?style=flat-square&label=%E2%98%85) - Site audit: a Claude Code skill that crawls a homepage, has Jev judge page type, search intent, importance, trust and citability, and emits ranked fixes that each carry priority, impact, effort and a source while stating that scores rank work rather than predict rankings.
 - [IntentSQL](https://github.com/Amine-LG/IntentSQL) ![stars](https://img.shields.io/github/stars/Amine-LG/IntentSQL?style=flat-square&label=%E2%98%85) - Natural-language SQL: turns a question about a SQLite database into a sequence of small Jev decisions instead of one generated query, released as an experiment alongside its decision lab.
 - [TypeSafe Conversation](https://www.reddit.com/r/homeassistant/comments/1wtbrz4/typesafe_conversation_a_home_assistant_voice/) - Home automation: a Home Assistant voice agent built on Jev.
+- [Jevvie](https://chriswijnia.com/lab/jevvie) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) - Web companions: a page offers its actions as WebMCP tools and one Jev `Choice` picks the action a visitor's request means, with a `Choice` per argument asked alongside, asking back when the top two options are close and gating unprompted tips with a `Noul` ([source](https://github.com/cwdx/jevvie)).
 
 ### Adaptive & Realtime UI
 
@@ -576,7 +577,6 @@ Source file: [`categories/game-simulation.md`](categories/game-simulation.md)
 - [jev-goal-reflex](https://github.com/blakeandrewwood/jev-goal-reflex) ![stars](https://img.shields.io/github/stars/blakeandrewwood/jev-goal-reflex?style=flat-square&label=%E2%98%85) - Simulation: a Three.js box steered by plain-language instructions, where an LLM turns each instruction into steps of simultaneous actions and every decision asks Jev two `Score` questions (move, turn) and one `Noul` (jump), with code acting on a score only past a 0.33 dead zone, jumping above 0.45, holding still any axis the current step does not use, and sending no Jev request while no step is active.
 - [Pacman AI Race](https://github.com/MaryNfs/pacman-ai-race) ![stars](https://img.shields.io/github/stars/MaryNfs/pacman-ai-race?style=flat-square&label=%E2%98%85) - Gaming: browser-based Pac-Man race where deterministic three-junction simulation removes routes predicted to be fatal when a survivor exists, then Jev makes one typed `Choice` among the remaining route IDs while the server rejects any answer outside the supplied set, with self-hosted Laya using the same decision contract for comparison.
 - [1 Million Emojis](https://chriswijnia.com/lab/emoji) - Collaborative art: a shared 1000 × 1000 emoji canvas where, after each visitor stroke, one Jev request asks a `Choice` over named (emoji, square) pairs next to it and a `Noul` on whether the stroke is an unfinished shape, finishing the loop or line above 0.7 and otherwise sampling its pick from the returned probabilities ([source](https://github.com/cwdx/1-million-emojis)).
-- [Jevvie](https://chriswijnia.com/lab/jevvie) - Page companion: the page offers its actions as WebMCP tools, and one Jev `Choice` picks the action a visitor's request means (with a `Choice` per argument asked alongside), asking back when the top two are close; a voxel character then hops to the button and does it ([source](https://github.com/cwdx/jevvie)).
 
 ### Robotics & Physical
 
