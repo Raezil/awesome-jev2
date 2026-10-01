@@ -61,7 +61,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 55 entries
+- [Classification & Routing](categories/classification-routing.md) — 56 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 47 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 38 entries
@@ -173,6 +173,7 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 - [jev-seo](https://github.com/AgriciDaniel/jev-seo) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/AgriciDaniel/jev-seo?style=flat-square&label=%E2%98%85) - Site audit: a Claude Code skill that crawls a homepage, has Jev judge page type, search intent, importance, trust and citability, and emits ranked fixes that each carry priority, impact, effort and a source while stating that scores rank work rather than predict rankings.
 - [IntentSQL](https://github.com/Amine-LG/IntentSQL) ![stars](https://img.shields.io/github/stars/Amine-LG/IntentSQL?style=flat-square&label=%E2%98%85) - Natural-language SQL: turns a question about a SQLite database into a sequence of small Jev decisions instead of one generated query, released as an experiment alongside its decision lab.
 - [TypeSafe Conversation](https://www.reddit.com/r/homeassistant/comments/1wtbrz4/typesafe_conversation_a_home_assistant_voice/) - Home automation: a Home Assistant voice agent built on Jev.
+- [Jevvie](https://chriswijnia.com/lab/jevvie) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) - Web companions: a page offers its actions as WebMCP tools and one Jev `Choice` picks the action a visitor's request means, with a `Choice` per argument asked alongside, asking back when the top two options are close and gating unprompted tips with a `Noul` ([source](https://github.com/cwdx/jevvie)).
 
 ### Adaptive & Realtime UI
 
