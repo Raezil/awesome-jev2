@@ -104,3 +104,4 @@ Use this category for public discussion evidence — X threads, Reddit posts, Ha
 - [Diogo Almeida with a16z on Jev](https://x.com/a16z/status/2104580361254810080) - X: the founder with Ben Horowitz and Martin Casado, pitching Jev by asking where all the decisions in a software stack currently live.
 - [Playwright CLI + Jev vs Playwright MCP](https://x.com/filip_hric/status/2103450014143947164) - X: reports swapping the Playwright MCP for the Playwright CLI with Jev choosing each step, at 98% lower cost and twice the speed.
 - [Jev in front of the HeyGen MCP](https://x.com/HeyGen/status/2104633906217840701) - X: a lead-generation pipeline where Jev decides which leads deserve a video in milliseconds before HeyGen renders it.
+- [Halv cut AI agent cost by 57.1% using Jev](https://halv.ai/blog/halv-swe-rebench-astra-42-pairs/) - Blog + HN: reports a measured cost reduction from putting Jev in the agent loop, on the SWE-rebench Astra pair set.
