@@ -61,14 +61,14 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 56 entries
+- [Classification & Routing](categories/classification-routing.md) — 57 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 47 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 38 entries
 - [Agent Decisions](categories/agent-decisions.md) — 60 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 35 entries
-- [Calibration & Research](categories/calibration-research.md) — 48 entries
+- [Calibration & Research](categories/calibration-research.md) — 49 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 96 entries
 - [Game & Simulation](categories/game-simulation.md) — 24 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
@@ -458,6 +458,7 @@ Source file: [`categories/calibration-research.md`](categories/calibration-resea
 - [Jev-Omni](https://huggingface.co/akhilaaa3/Jev-Omni) - Multimodal System One: a Gemma-4-12B fine-tune that answers typed questions over text, images, audio and video, at 1,402 downloads in its first ten days.
 - [Bekko System One](https://github.com/hotchpotch/bekko-system-one) ![stars](https://img.shields.io/github/stars/hotchpotch/bekko-system-one?style=flat-square&label=%E2%98%85) - Open decision models: independent 17M–400M English models for Choice, Noul, and Score, with public weights, training code, and an [ONNX browser demo](https://huggingface.co/spaces/hotchpotch/bekko-system-one-in-browser); v0 remains substantially behind Jev on the project's generalization tests.
 - [jevcrypto](https://github.com/gignac-cha/jevcrypto) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/gignac-cha/jevcrypto?style=flat-square&label=%E2%98%85) - Creative experiment: a `crypto.randomUUID()` look-alike npm package that writes Jev's raw `Noul` probabilities on 15 code-point permutations of any prompt, plus one `Choice` for the variant digit, into the bytes of a UUID v4-shaped string; deliberately not cryptographically random.
+- [Vev](https://github.com/Xiaooolong/vev) ![stars](https://img.shields.io/github/stars/Xiaooolong/vev?style=flat-square&label=%E2%98%85) - Open alternative: an open-source Jev implementation with vision input, LoRA fine-tuned on Qwen3.5-4B and 9B, serving `Choice`, `Score` and `Noul` questions on the `/v1/systemone` wire format with screenshots and photos placed directly in the state so one decision can use both text and image; weights are CC BY-NC 4.0, non-commercial only.
 
 ### Infra / SDKs / Integrations
 
