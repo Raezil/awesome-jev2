@@ -75,7 +75,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Finance & Trading](categories/finance-trading.md) — 8 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 2 entries
 - [Content Moderation](categories/content-moderation.md) — 8 entries
-- [Related Practices / Discussions](categories/related-practices-discussions.md) — 96 entries
+- [Related Practices / Discussions](categories/related-practices-discussions.md) — 99 entries
 
 ### Open categories still being seeded
 
@@ -741,6 +741,9 @@ Source file: [`categories/related-practices-discussions.md`](categories/related-
 - [Jev in front of the HeyGen MCP](https://x.com/HeyGen/status/2104633906217840701) - X: a lead-generation pipeline where Jev decides which leads deserve a video in milliseconds before HeyGen renders it.
 - [Halv cut AI agent cost by 57.1% using Jev](https://halv.ai/blog/halv-swe-rebench-astra-42-pairs/) - Blog + HN: reports a measured cost reduction from putting Jev in the agent loop, on the SWE-rebench Astra pair set.
 - [Jev organized 2.3K research papers for 14 cents](https://x.com/omarsar0/status/2102066232383979749) - X: a production use case reporting that sorting roughly 2,300 AI research papers took about 83 seconds and cost $0.14 in total.
+- [Jev in production at treg](https://x.com/jasonzhou1993/status/2105976641176662164) - X: the team behind treg, a 4,034-star agent-tool project, reports running Jev in production for web-traffic classification, onboarding and reranked search, at roughly 10x cheaper and 18x faster.
+- [Nine jobs where Jev replaces a pricey LLM call](https://x.com/polydao/status/2105596331934785999) - X: lists nine places where a typed decision call can stand in for a full model call, as a starting set for scoping a migration.
+- [Jev explained for people who still do not get it](https://x.com/matthewcanham/status/2102077098756280413) - X article: written for readers who have gone through everything published about Jev and still find the point of a decision model opaque.
 
 ## Submission format
 
