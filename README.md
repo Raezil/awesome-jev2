@@ -69,13 +69,13 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 35 entries
 - [Calibration & Research](categories/calibration-research.md) — 49 entries
-- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 97 entries
+- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 99 entries
 - [Game & Simulation](categories/game-simulation.md) — 24 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
 - [Finance & Trading](categories/finance-trading.md) — 8 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 2 entries
 - [Content Moderation](categories/content-moderation.md) — 8 entries
-- [Related Practices / Discussions](categories/related-practices-discussions.md) — 99 entries
+- [Related Practices / Discussions](categories/related-practices-discussions.md) — 100 entries
 
 ### Open categories still being seeded
 
@@ -564,6 +564,8 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 - [Jev Showcase](https://github.com/cobusgreyling/Jev) ![stars](https://img.shields.io/github/stars/cobusgreyling/Jev?style=flat-square&label=%E2%98%85) - Pattern gallery: a runnable app with four agent skills that put `Choice`, `Score` and `Noul` next to parallel fan-out, a router and a guardrail in one codebase.
 - [DecisionKit](https://github.com/iamjonatha/decisionkit-dotnet) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/iamjonatha/decisionkit-dotnet?style=flat-square&label=%E2%98%85) - .NET ecosystem: provider-independent .NET decision engine whose domain package holds no Jev URL, header or DTO, mapping `Choice`, `Score` and `Noul` questions onto `POST /v1/systemone` from a separate provider package, with a runnable ASP.NET ticket-triage sample that picks the owning team and escalates to a human at a normalized `Score` of 0.8, and 1,096 tests across `net8.0` and `net10.0` that run with no HTTP.
 - [intern-decision-mlx](https://github.com/dex0shubham/intern-decision-mlx) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/dex0shubham/intern-decision-mlx?style=flat-square&label=%E2%98%85) - Local runtime: serves Shanghai AI Lab's open Intern-Decision-0.8B vision decision model on Apple Silicon behind a `/v1/systemone`-shaped endpoint that also takes screenshots, so an agent can threshold the calibrated `Choice`, `Score` and `Noul` answers and escalate the rest — 0.9 s per 1080p screenshot downscaled to 1024 px on an 8 GB M2 MacBook Air, and the same answers as the lab's PyTorch reference on 67 of 67 fields.
+- [Decision Models in llama.cpp](https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp) - Local inference: llama.cpp adds a `/v1/systemone` endpoint that takes a state, questions and candidate answers and returns the chosen option with a probability for each, in Jev's own wire format, with official tests from 144M up to 27B models.
+- [Databricks AI Decide](https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data) - Data platform: Databricks ships `ai_decide`, an AI Function that classifies, scores and chooses over governed data, and says it built it because demand for fast structured decisions followed the Jev launch.
 
 ### Game & Simulation
 
@@ -744,6 +746,7 @@ Source file: [`categories/related-practices-discussions.md`](categories/related-
 - [Jev in production at treg](https://x.com/jasonzhou1993/status/2105976641176662164) - X: the team behind treg, a 4,034-star agent-tool project, reports running Jev in production for web-traffic classification, onboarding and reranked search, at roughly 10x cheaper and 18x faster.
 - [Nine jobs where Jev replaces a pricey LLM call](https://x.com/polydao/status/2105596331934785999) - X: lists nine places where a typed decision call can stand in for a full model call, as a starting set for scoping a migration.
 - [Jev explained for people who still do not get it](https://x.com/matthewcanham/status/2102077098756280413) - X article: written for readers who have gone through everything published about Jev and still find the point of a decision model opaque.
+- [Measuring what Jev does in a RAG pipeline](https://x.com/WarlockTome/status/2104210551203401972) - X (Chinese): instead of repeating the unsupported claims about Jev in RAG, builds a pipeline over 42 pages of the official docs and reports that the answer ranked first among 20 answerable questions went from 7 to 17, with none of the unanswerable ones handed to the model.
 
 ## Submission format
 
