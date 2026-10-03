@@ -69,7 +69,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 35 entries
 - [Calibration & Research](categories/calibration-research.md) — 50 entries
-- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 99 entries
+- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 100 entries
 - [Game & Simulation](categories/game-simulation.md) — 25 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
 - [Finance & Trading](categories/finance-trading.md) — 8 entries
@@ -570,6 +570,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 - [intern-decision-mlx](https://github.com/dex0shubham/intern-decision-mlx) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/dex0shubham/intern-decision-mlx?style=flat-square&label=%E2%98%85) - Local runtime: serves Shanghai AI Lab's open Intern-Decision-0.8B vision decision model on Apple Silicon behind a `/v1/systemone`-shaped endpoint that also takes screenshots, so an agent can threshold the calibrated `Choice`, `Score` and `Noul` answers and escalate the rest — 0.9 s per 1080p screenshot downscaled to 1024 px on an 8 GB M2 MacBook Air, and the same answers as the lab's PyTorch reference on 67 of 67 fields.
 - [Decision Models in llama.cpp](https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp) - Local inference: llama.cpp adds a `/v1/systemone` endpoint that takes a state, questions and candidate answers and returns the chosen option with a probability for each, in Jev's own wire format, with official tests from 144M up to 27B models.
 - [Databricks AI Decide](https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data) - Data platform: Databricks ships `ai_decide`, an AI Function that classifies, scores and chooses over governed data, and says it built it because demand for fast structured decisions followed the Jev launch.
+- [metajev](https://github.com/YYTbit/metajev) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/YYTbit/metajev?style=flat-square&label=%E2%98%85) - Decision infrastructure: keeps the full distribution behind each Jev `Noul`, `Choice`, or `Score` answer under a key of state, question, and model, so an accept boundary can be moved across the whole recorded history with no further Jev calls.
 
 ### Game & Simulation
 
